@@ -2,7 +2,7 @@
 # Monkeypatch bananajour to override ports
 # and repository resolution behaviour.
 module Bananajour
-  
+
   class << self
 
     include BigBananajour::EmailMangleHelper
@@ -12,11 +12,11 @@ module Bananajour
     end
 
     def web_port
-      9332 
+      9332
     end
-    
+
     def git_port
-      9419 
+      9419
     end
 
     def git_uri

@@ -24,7 +24,7 @@ end
 task :clean do
   FileUtils.rm_rf Dir['*.gem', '*.gemspec']
 end
- 
+
 namespace :gem do
 
   desc "Rebuild and install bigbananajour as a gem"
@@ -60,5 +60,5 @@ namespace :gem do
     end
 
   end
-  
+
 end
